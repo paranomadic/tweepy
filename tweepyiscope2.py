@@ -7,10 +7,10 @@ import pandas
 from pandas import ExcelWriter
 import os
 
-ACCESS_TOKEN = '765082989097136128-RAQ3H3L8OfM8D9qA5bbNMhRLU8Jb0Sr'
-ACCESS_SECRET = 'NF9R6tZFHuXpRPkaGSGWGNAduiOP0vFeUpuvtDCNd61fx'
-CONSUMER_KEY = 'rP4vHHT0ccdmwFRKOcq9XNPpo'
-CONSUMER_SECRET = '3yPBdrP91MxLlIKHCY6IFCCq6BUoyETzI1pRzWsfRTDgcdPyTu'
+ACCESS_TOKEN = '**************************'
+ACCESS_SECRET = '***********************'
+CONSUMER_KEY = '*************************'
+CONSUMER_SECRET = '************************'
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
